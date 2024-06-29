@@ -1,107 +1,232 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    list-style: none;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
 }
 
 .design-four-animation {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.7rem 10vw;
-    background: black;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background: black;
+}
+
+.design-four-animation img.logo4 {
+  height: 50px;
+  transition: transform 0.5s;
+}
+
+.design-four-animation img.logo4:hover {
+  transform: scale(1.4);
+}
+
+.design-four-animation nav.navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.design-four-animation nav.navigation a.navigation-content {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background: white;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+
+.design-four-animation nav.navigation a.navigation-content:hover {
+  background: var(--clr);
+  color: var(--clr);
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px var(--clr);
+}
+
+.design-four-animation nav.navigation a.navigation-content:active {
+  transform: scale(0.8); 
+}
+
+.design-four-animation nav.navigation a.navigation-content::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+
+.design-four-animation nav.navigation a.navigation-content span {
+  position: relative;
+}
+
+.design-four-animation nav.navigation a.navigation-content i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.design-four-animation nav.navigation a.navigation-content i::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+
+.design-four-animation nav.navigation a.navigation-content:hover i::before {
+  width: 20px; 
+  left: 20%; 
+}
+
+.design-four-animation nav.navigation a.navigation-content i::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+
+.design-four-animation nav.navigation a.navigation-content:hover i::after {
+  width: 20px; 
+  left: 80%; 
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.content {
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+  background: #f2f2f2;
+}
+
+.content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 30px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+
+.content img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content p {
+  text-align: center;
+  color: #b2bec3;
+  padding: 8px 0;
+}
+
+.content h6 {
+  font-size: 26px;
+  text-align: center;
+  color: #222f3e;
+  margin: 0;
+}
+
+.content ul {
+  display: flex;
+  padding: 0;
+  list-style: none
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+li{
+  padding-top: 5px;
+}
+.fa{
+  font-size: 26px;
+  transition: .4s;
+  margin: 3px;
+}
+.checked{
+  color: #ff9f43;
+}
+.fa :hover{
+  transform: scale(1.3);
+  transition: .6s;
+}
+button{
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  width: 100%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.buy-1{
+  background: #2183a2;
+}
+.buy-2{
+  background: #f7e11a;
+}
+.buy-3{
+  background: #3513f8;
+}
+.buy-4{
+  background: #11ff4c;
+}
+@media(max-width:1000px){
+  .content{
+    width: 45px;
   }
-  
-  .design-four-animation img.logo4 {
-    height: 50px;
-    transition: transform 0.5s;
+}
+@media(max-width:750px){
+  .content{
+    width: 45px;
   }
-  
-  .design-four-animation img.logo4:hover {
-    transform: scale(1.4);
-  }
-  
-  
-  .design-four-animation nav.navigation {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content {
-    position: relative;
-    font-weight: 600;
-    font-size: 1.1rem;
-    background: white;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 10px;
-    transition: transform 0.5s;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content:hover {
-    background: var(--clr);
-    color: var(--clr);
-    letter-spacing: 0.25em;
-    box-shadow: 0 0 35px var(--clr);
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content:active {
-    transform: scale(0.8); 
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content::before {
-    content: '';
-    position: absolute;
-    inset: 2px;
-    background: #27282c;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content span{
-    position: relative;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content i{
-    position: absolute;
-    inset: 0;
-    display: block;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content i::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 80%;
-    width: 10px;
-    height: 4px;
-    background: #27282c;
-    transform: translateX(-50%) skewX(325deg);
-    transition: 0.5s;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content:hover i::before {
-    width: 20px; 
-    left: 20%; 
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content i::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 20%;
-    width: 10px;
-    height: 4px;
-    background: #27282c;
-    transform: translateX(-50%) skewX(325deg);
-    transition: 0.5s;
-  }
-  
-  .design-four-animation nav.navigation a.navigation-content:hover i::after {
-    width: 20px; 
-    left: 80%; 
-  }
+}

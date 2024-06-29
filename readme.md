@@ -122,3 +122,4 @@ WD-ProjectName
 |-|-|-|
 | Feature page 1 | I used this tutorial to make my page 1 more creative. | https://www.youtube.com/watch?v=yqaLSlPOUxM&t=51s |
 | Hover button effect | I used this hover effect for my 4th design animation | https://www.youtube.com/watch?v=xnltEHWWjiM&t=141s |
+| Feature page 2 | I used this tutorial to make my page 2 more creative. |https://www.youtube.com/watch?v=kRs3aTi3pzU&t=23s |
