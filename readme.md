@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/GUAY1414/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/dp.jpg" alt="Nyebe" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Antonio B. Guay III</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  SEATWORK 4 
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=GUAY1414/WD-SW4)
 
 ---
 
@@ -61,9 +61,12 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+This project has 1 landing page and 2 feature pages to improve our creativeness.
 - Whats the purpose
+The purpose of this project is for us to improve in html and css.
 - What are key components
 - What technology used and how it is used
+It is used by creating a website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +120,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Feature page 1 | I used this tutorial to make my page 1 more creative. | https://www.youtube.com/watch?v=yqaLSlPOUxM&t=51s |
+| Hover button effect | I used this hover effect for my 4th design animation | https://www.youtube.com/watch?v=xnltEHWWjiM&t=141s |
